@@ -1,0 +1,146 @@
+{
+  "cross_validation": {
+    "L2-Logistic Regression": {
+      "AUC": "89.81 \u00b1 0.76",
+      "ACC": "79.61 \u00b1 0.87",
+      "SEN": "78.61 \u00b1 1.11",
+      "SPE": "80.66 \u00b1 2.15"
+    },
+    "Random Forest": {
+      "AUC": "94.33 \u00b1 0.77",
+      "ACC": "86.45 \u00b1 1.05",
+      "SEN": "82.78 \u00b1 1.81",
+      "SPE": "90.26 \u00b1 2.08"
+    },
+    "RBF-SVM": {
+      "AUC": "92.10 \u00b1 0.85",
+      "ACC": "84.19 \u00b1 1.11",
+      "SEN": "83.80 \u00b1 2.85",
+      "SPE": "84.61 \u00b1 1.25"
+    }
+  },
+  "external_validation": {
+    "L2-Logistic Regression": {
+      "AUC": 69.7,
+      "ACC": 57.69,
+      "SEN": 100.0,
+      "SPE": 0.0,
+      "locked_threshold": 0.66
+    },
+    "Random Forest": {
+      "AUC": 87.27,
+      "ACC": 57.69,
+      "SEN": 100.0,
+      "SPE": 0.0,
+      "locked_threshold": 0.48
+    },
+    "RBF-SVM": {
+      "AUC": 97.58,
+      "ACC": 57.69,
+      "SEN": 100.0,
+      "SPE": 0.0,
+      "locked_threshold": 0.65
+    }
+  },
+  "external_shared_genes": [
+    "ZNF248",
+    "TLR2",
+    "TCF7L2",
+    "SLMAP",
+    "LY9",
+    "DMXL2",
+    "RBM47",
+    "UBASH3B",
+    "NPL",
+    "GRK3",
+    "GLUL"
+  ],
+  "external_missing_genes": [
+    "FZD7",
+    "JAG1",
+    "SULF2",
+    "ATG7",
+    "LILRB2",
+    "AIF1",
+    "LILRB3",
+    "GJB6"
+  ],
+  "rf_feature_importances": [
+    {
+      "Gene": "GLUL",
+      "Importance": 0.0917
+    },
+    {
+      "Gene": "LILRB2",
+      "Importance": 0.0913
+    },
+    {
+      "Gene": "ATG7",
+      "Importance": 0.0789
+    },
+    {
+      "Gene": "TLR2",
+      "Importance": 0.0751
+    },
+    {
+      "Gene": "GJB6",
+      "Importance": 0.0635
+    },
+    {
+      "Gene": "LY9",
+      "Importance": 0.0593
+    },
+    {
+      "Gene": "UBASH3B",
+      "Importance": 0.0586
+    },
+    {
+      "Gene": "JAG1",
+      "Importance": 0.0536
+    },
+    {
+      "Gene": "AIF1",
+      "Importance": 0.0535
+    },
+    {
+      "Gene": "FZD7",
+      "Importance": 0.0519
+    },
+    {
+      "Gene": "LILRB3",
+      "Importance": 0.0466
+    },
+    {
+      "Gene": "SULF2",
+      "Importance": 0.0464
+    },
+    {
+      "Gene": "SLMAP",
+      "Importance": 0.0431
+    },
+    {
+      "Gene": "NPL",
+      "Importance": 0.0376
+    },
+    {
+      "Gene": "ZNF248",
+      "Importance": 0.0366
+    },
+    {
+      "Gene": "TCF7L2",
+      "Importance": 0.0345
+    },
+    {
+      "Gene": "DMXL2",
+      "Importance": 0.0322
+    },
+    {
+      "Gene": "RBM47",
+      "Importance": 0.0248
+    },
+    {
+      "Gene": "GRK3",
+      "Importance": 0.021
+    }
+  ]
+}

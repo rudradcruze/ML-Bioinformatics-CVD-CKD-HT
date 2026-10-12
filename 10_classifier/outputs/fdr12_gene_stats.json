@@ -1,0 +1,110 @@
+[
+  {
+    "Gene": "APOBEC3A",
+    "CKD_logFC": -0.371,
+    "CKD_adjP": "4.70e-02",
+    "CVD_logFC": -2.155,
+    "CVD_adjP": "1.18e-08",
+    "HT_logFC": -0.791,
+    "HT_adjP": "1.87e-02"
+  },
+  {
+    "Gene": "DRAM1",
+    "CKD_logFC": -0.571,
+    "CKD_adjP": "1.07e-02",
+    "CVD_logFC": -0.617,
+    "CVD_adjP": "4.53e-02",
+    "HT_logFC": -0.488,
+    "HT_adjP": "7.21e-03"
+  },
+  {
+    "Gene": "FNDC3B",
+    "CKD_logFC": -0.66,
+    "CKD_adjP": "3.13e-03",
+    "CVD_logFC": -1.069,
+    "CVD_adjP": "6.93e-03",
+    "HT_logFC": -0.432,
+    "HT_adjP": "4.11e-02"
+  },
+  {
+    "Gene": "FOXO3",
+    "CKD_logFC": -0.585,
+    "CKD_adjP": "2.28e-03",
+    "CVD_logFC": -0.762,
+    "CVD_adjP": "1.79e-02",
+    "HT_logFC": -0.53,
+    "HT_adjP": "4.84e-02"
+  },
+  {
+    "Gene": "GAS7",
+    "CKD_logFC": -0.663,
+    "CKD_adjP": "3.66e-02",
+    "CVD_logFC": -0.982,
+    "CVD_adjP": "3.94e-03",
+    "HT_logFC": -0.426,
+    "HT_adjP": "3.16e-02"
+  },
+  {
+    "Gene": "IRAK3",
+    "CKD_logFC": -0.918,
+    "CKD_adjP": "7.03e-04",
+    "CVD_logFC": -2.603,
+    "CVD_adjP": "8.21e-11",
+    "HT_logFC": -0.478,
+    "HT_adjP": "3.65e-02"
+  },
+  {
+    "Gene": "PLBD1",
+    "CKD_logFC": -0.718,
+    "CKD_adjP": "2.69e-03",
+    "CVD_logFC": -2.086,
+    "CVD_adjP": "3.18e-06",
+    "HT_logFC": -0.416,
+    "HT_adjP": "3.92e-02"
+  },
+  {
+    "Gene": "RAB31",
+    "CKD_logFC": -0.677,
+    "CKD_adjP": "7.03e-03",
+    "CVD_logFC": -1.056,
+    "CVD_adjP": "1.45e-04",
+    "HT_logFC": -0.455,
+    "HT_adjP": "3.41e-02"
+  },
+  {
+    "Gene": "SIPA1L2",
+    "CKD_logFC": -0.682,
+    "CKD_adjP": "3.01e-03",
+    "CVD_logFC": -1.131,
+    "CVD_adjP": "2.80e-04",
+    "HT_logFC": -0.395,
+    "HT_adjP": "2.11e-02"
+  },
+  {
+    "Gene": "SLC8A1",
+    "CKD_logFC": -0.421,
+    "CKD_adjP": "3.01e-03",
+    "CVD_logFC": -1.366,
+    "CVD_adjP": "2.10e-04",
+    "HT_logFC": -0.389,
+    "HT_adjP": "4.93e-02"
+  },
+  {
+    "Gene": "SORT1",
+    "CKD_logFC": -0.731,
+    "CKD_adjP": "1.07e-02",
+    "CVD_logFC": -1.022,
+    "CVD_adjP": "1.09e-03",
+    "HT_logFC": -0.466,
+    "HT_adjP": "2.84e-03"
+  },
+  {
+    "Gene": "SULF2",
+    "CKD_logFC": -0.682,
+    "CKD_adjP": "1.07e-02",
+    "CVD_logFC": -1.847,
+    "CVD_adjP": "2.53e-07",
+    "HT_logFC": -0.523,
+    "HT_adjP": "7.80e-03"
+  }
+]

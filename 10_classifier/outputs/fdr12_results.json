@@ -1,0 +1,125 @@
+{
+  "genes": [
+    "APOBEC3A",
+    "DRAM1",
+    "FNDC3B",
+    "FOXO3",
+    "GAS7",
+    "IRAK3",
+    "PLBD1",
+    "RAB31",
+    "SIPA1L2",
+    "SLC8A1",
+    "SORT1",
+    "SULF2"
+  ],
+  "external_shared": [
+    "FNDC3B",
+    "FOXO3",
+    "IRAK3",
+    "PLBD1",
+    "RAB31",
+    "SIPA1L2",
+    "SLC8A1",
+    "SORT1"
+  ],
+  "external_missing": [
+    "APOBEC3A",
+    "DRAM1",
+    "GAS7",
+    "SULF2"
+  ],
+  "cv": {
+    "L2-Logistic Regression": {
+      "AUC": "83.01 \u00b1 0.92",
+      "ACC": "74.90 \u00b1 1.86",
+      "SEN": "73.54 \u00b1 1.52",
+      "SPE": "76.32 \u00b1 2.91"
+    },
+    "Random Forest": {
+      "AUC": "86.86 \u00b1 1.30",
+      "ACC": "79.23 \u00b1 1.39",
+      "SEN": "75.19 \u00b1 1.60",
+      "SPE": "83.42 \u00b1 2.17"
+    },
+    "RBF-SVM": {
+      "AUC": "83.37 \u00b1 1.47",
+      "ACC": "77.35 \u00b1 1.91",
+      "SEN": "77.22 \u00b1 1.89",
+      "SPE": "77.50 \u00b1 2.27"
+    }
+  },
+  "external": {
+    "L2-Logistic Regression": {
+      "AUC": 86.06,
+      "ACC": 69.23,
+      "SEN": 100.0,
+      "SPE": 27.27,
+      "locked_threshold": 0.38
+    },
+    "Random Forest": {
+      "AUC": 69.7,
+      "ACC": 65.38,
+      "SEN": 73.33,
+      "SPE": 54.55,
+      "locked_threshold": 0.54
+    },
+    "RBF-SVM": {
+      "AUC": 38.18,
+      "ACC": 57.69,
+      "SEN": 100.0,
+      "SPE": 0.0,
+      "locked_threshold": 0.46
+    }
+  },
+  "rf_importances": [
+    {
+      "Gene": "IRAK3",
+      "Importance": 0.1818
+    },
+    {
+      "Gene": "APOBEC3A",
+      "Importance": 0.1491
+    },
+    {
+      "Gene": "PLBD1",
+      "Importance": 0.1041
+    },
+    {
+      "Gene": "SULF2",
+      "Importance": 0.0967
+    },
+    {
+      "Gene": "DRAM1",
+      "Importance": 0.0644
+    },
+    {
+      "Gene": "FNDC3B",
+      "Importance": 0.0613
+    },
+    {
+      "Gene": "GAS7",
+      "Importance": 0.0605
+    },
+    {
+      "Gene": "FOXO3",
+      "Importance": 0.059
+    },
+    {
+      "Gene": "SORT1",
+      "Importance": 0.0586
+    },
+    {
+      "Gene": "SLC8A1",
+      "Importance": 0.0582
+    },
+    {
+      "Gene": "RAB31",
+      "Importance": 0.0562
+    },
+    {
+      "Gene": "SIPA1L2",
+      "Importance": 0.05
+    }
+  ]
+}

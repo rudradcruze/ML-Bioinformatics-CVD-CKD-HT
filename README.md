@@ -21,6 +21,13 @@ Scripts and datasets for gene-expression exploration across CVD, CKD, and hypert
 - 3_mrmr-feature-selection/: rank top K genes with mRMR.
 - R figures: 5_PathWays.R, 6_Heatmap.R, 7_reactom_pathway.R, 8_go_analysis.R, 9_box_plot.R.
 
+## Diagnostic classifier (new in this version)
+
+- `10_classifier/final_classifier_analysis.py` — fully specified classifiers (L2-logistic regression, Random Forest, RBF-SVM) on the 21-gene exploratory signature: repeated (10x) stratified 5-fold cross-validation on the pooled training cohorts (GSE62792, GSE22356, GSE66360; n = 155) and external validation on GSE113439 with a locked model and Youden threshold. Random seed 42.
+- `10_classifier/fdr12_classifier_analysis.py` — identical protocol on the FDR-primary 12-gene signature (FDR < 0.05, concordant direction, |log2FC| > 0.35 in all three datasets).
+- `10_classifier/outputs/` — results.json / fdr12_results.json (all metrics), feature-importance CSVs, ROC figures (PDF), and the FDR hub-gene degree ranking.
+- Reproduce: `python 10_classifier/final_classifier_analysis.py` (scikit-learn 1.6.1, numpy, pandas, matplotlib).
+
 ## Requirements
 
 - Python 3.9+, packages: pandas, numpy, matplotlib, mrmr.
